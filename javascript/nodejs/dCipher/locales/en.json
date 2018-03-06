@@ -1,0 +1,5 @@
+{
+	"noActionCipher": "Action with cipher not setup. Please, setup --type with \"Encript/Decript\" values.",
+    "emptyInputStream": "Input stream is empty.",
+    "notExistsFilename": "Input filename not exists."
+}

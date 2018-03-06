@@ -1,0 +1,26 @@
+{
+  "name": "dCipher",
+  "version": "1.0.1",
+  "description": "A dCipher starter",
+  "scripts": {
+    "dCipher:dev": "rimraf dist && webpack --mode=development --env=nodejs:dCipher:dev  --progress --profile --bail",
+    "dCipher:prod": "rimraf dist && webpack --mode=production --env=nodejs:dCipher:prod  --progress --profile --bail"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "*"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "extract-text-webpack-plugin": "*",
+    "ts-loader": "*",
+    "typescript": "*",
+    "webpack": "*",
+    "webpack-cli": "*",
+    "webpack-dev-server": "*",
+    "webpack-merge": "*"
+  },
+  "optionalDependencies": {
+    "fsevents": "*"
+  }
+}
