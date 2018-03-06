@@ -1,0 +1,25 @@
+# Guest OS timezone
+timezone: Europe/Zaporozhye
+
+# Virtual machine name
+machine_name: dCipher
+
+# Virtual machine IP
+ip: 192.168.77.22
+
+# Virtual machine CPU cores number
+cpus: 1
+
+# Virtual machine RAM
+memory: 2048
+
+# Virtual machine hostname
+hostname: "dcipher.int"
+
+domains: {
+  api: "www.dcipher.int",
+}
+
+
+# Bootstrap section
+installNodeJs: true
